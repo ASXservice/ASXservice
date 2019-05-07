@@ -1,0 +1,642 @@
+/* --------------------------------------
+=========================================
+RESPONSIVE FIXES
+=========================================
+-----------------------------------------*/
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+@media (min-width: 1170){
+    .container {
+        width: 1170;
+    }
+    .haveq-tabs .accordeon {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1200px){
+    .price-iphone-image,
+    .price-ipad-image {
+        display: none;
+    }
+    .top-bar-menu {
+        display: none;
+    }
+    .show-menu{
+        display: block;
+    }
+    .contacts-title h2 {
+        font-size: 34px;
+    }
+    .contacts .container {
+        padding: 80px 0 52px 50px;
+    }
+    .contacts-map {
+        width: 470px;
+    }
+    .contacts-map img{
+        max-width: 100%;
+    }
+    .contacts-howsearch {
+        width: 100%;
+        text-align: center;
+    }
+    .contacts-howsearch-item {
+        font-size: 16px;
+        text-align: left;
+        max-width: 450px;
+        margin: 69px auto 0 auto;
+    }
+    .cometoyou .container {
+        padding: 0 50px;
+        text-align: center;
+    }
+    .cometoyou .section-title:after,
+    .contacts .section-title:after {
+        margin: 20px auto 0 auto;
+    }
+    .clients-star {
+        margin: 0 10px 39px;
+    }
+    .contacts .container .row {
+        width: 100%;
+    }
+    .contacts-map {
+        position: static;
+        height: 600px;
+        width: 100%;
+        background-position-x: right;
+    }
+    .socials {
+        text-align: center;
+    }
+    .socials .container a:first-child {
+        margin: 0;
+    }
+    input, button {
+        display: block!important;
+        margin: 0 auto !important;
+        float: none!important;
+        margin-top: 20px !important;
+        width: 300px!important;
+    }
+    input:first-child, button:first-child {
+        margin-top: 0;
+    }
+    .top-bar-logo {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .top-bar-contacts {
+        width: 100%;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    .btn-group > .btn {
+        display: inline-block!important;
+        width: 200px!important;
+    }
+    .btn-group > .btn:first-child {
+        margin-right: -5px!important;
+    }
+    .haveq .haveq-nav ul.nav-tabs li a{
+        font-size: .88em;
+    }
+}
+@media (max-width:  1024px) {
+    .footer-contacts .roistat-phone-tel:nth-child(2) {
+        display: none;   
+    }
+    .footer-contacts .roistat-phone-tel:nth-child(3) {
+        display: inline-block;   
+    }
+}
+@media (min-width: 992px) {
+    .haveq-tabs .accordeon {
+        display: none !important;
+    }
+}
+@media (max-width: 992px) {
+    .top-bar-contacts {
+        display: none;
+    }
+    .top-bar-contacts .worktop {
+        display: block;
+        margin: 20px auto;
+    }
+    .top-bar-contacts .worktop:first-child {
+        margin: 0 auto;
+    }
+    .top-bar-contacts .worktop:last-child {
+        margin: 0 auto;
+    }
+    .features2 .features-item {
+        display: block;
+        margin: 0 auto;
+    }
+    .header-subtitle {
+        font-size: 22px;
+    }
+    .nav-tabs {
+        margin-bottom: 12px;
+    }
+    .nav-tabs li a {
+        margin-bottom: 10px;
+    }
+    .haveq .haveq-nav {
+        padding: 20px 0;
+    }
+    .haveq .haveq-nav ul.nav-tabs li a{
+        display: none !important;
+    }
+    .haveq-tabs .tab-content {
+        display: none !important;
+    }
+    .haveq-tabs .accordeon {
+        display: block !important;
+    }
+    .price-ipad-text {
+        margin-left: 0;
+    }
+    .price-iphone-text {
+        margin-left: 0;
+    }
+    .team-items-container {
+        width: 700px;
+    }
+    .team .nav-sel:nth-child(3) {
+        display: inline-block;
+    }
+    .contacts .container {
+        padding: 80px 30px 52px 30px;
+    }
+    .contacts-howsearch-item {
+        font-size: 11px;
+    }
+    .contacts-title h2 {
+        font-size: 30px;
+    }
+    .cometoyou .container {
+        padding: 0 30px;
+    }
+    .features-form input {
+        margin-bottom: 10px;
+    }
+    .team-btn-prev {
+        left: 0;
+    }
+    .team-btn-next {
+        right: 0;
+    }
+    .contacts-map-legend span {
+        margin-right: 10px;
+    }
+    .footer ul {
+        margin: 20px 0 40px 0!important;
+    }
+    .footer ul li a:before {
+        float: left;
+        margin-top: 8px;
+    }
+    .footer ul li a {
+        width: 210px;
+        text-align: center;
+        margin: 10px auto!important;
+    }
+    .footer .worktop {
+        text-align: left;
+        width: 180px;
+        margin: 20px auto!important;
+    }
+    .footer .worktop img {
+        margin-right: 20px;
+    }
+    .footer {
+        text-align: center!important;
+    }
+    .footer .row > * {
+        display: block!important;
+        float: none!important;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer .socials a {
+        display: inline-block;
+        margin: 0;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-bar {
+        background: #f7f7f7;
+        height: auto;
+    }
+    .top-bar-logo {
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+    .top-bar-contacts {
+        margin-bottom: 30px;
+    }
+    .header {
+        height: 600px;
+        padding: 0 10px;
+    }
+    .header-title {
+        text-align: center;
+        width: 100%;
+    }
+    .header-title h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .header-subtitle {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+    .header-form {
+        width: 100%;
+        text-align: center;
+        top: 190px;
+    }
+    .header-name {
+        text-align: center;
+    }
+    .header-name h2 {
+        font-size: 32px;
+        display: block;
+        margin-bottom: 0;
+    }
+    .header-name span {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .header-position {
+        font-size: 18px;
+    }
+    .header-crash-text {
+        font-size: 20px;
+    }
+    .header-crash-number {
+        font-size: 57px;
+    }
+    .header .btn-primary {
+        display: block;
+        margin: 20px auto 0 auto;
+    }
+    .header-device-text {
+        text-align: center;
+    }
+    .header-device-number {
+        font-size: 57px;
+    }
+    .header-read-more {
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .section-title {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .price-iphone-image {
+        display: none;
+    }
+    .price-iphone-text {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .price-ipad-image {
+        display: none;
+    }
+    .price-ipad-text {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .price-form-title {
+        font-size: 15px;
+    }
+    .team-items-container {
+        width: 300px;
+    }
+    .team .nav-sel:nth-child(4),
+    .team .nav-sel:nth-child(5) {
+        display: inline-block;
+    }
+    .clients .nav-sel {
+        display: inline-block;
+    }
+    .contacts-map {
+        width: 100%;
+        height: 350px;
+    }
+    .contacts-howsearch {
+        width: 100%;
+        margin-left: 0;
+    }
+    .contacts-howsearch-item {
+        font-size: 14px;
+    }
+    .cometoyou-title h2 {
+        font-size: 30px;
+    }
+    .cometoyou-form-title {
+        font-size: 16px;
+    }
+    .haveq input {
+        margin-bottom: 15px;
+    }
+    .haveq-address {
+        font-size: 24px;
+    }
+    .clients-subtitle {
+        font-size: 19px;
+    }
+    .header-overlay{
+        display: block;
+    }
+    .price-iphone-item-name,
+    .price-iphone-item-cost,
+    .price-ipad-item-name,
+    .price-ipad-item-cost {
+        font-size: 16px;
+    }
+    .price-iphone-info,
+    .price-ipad-info {
+        width: 95%;
+    }
+    .price-iphone-text,
+    .price-ipad-text {
+        width: 100%;
+    }
+    .price-scale {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .socials .container a {
+        margin-left: 15px;
+    }
+    .socials .container {
+        margin-left: 80px;
+        float: right;
+    }
+    .socials:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .header {
+        background-position-x: 60%;
+    }
+    .cometoyou {
+        background-position: -648px top;
+    }
+    .haveq {
+        background-position: -690px top;
+    }
+    .header-title h2 {
+        font-size: 25px;
+    }
+    .header-title br {
+        display: none;
+    }
+    .header-subtitle {
+        font-size: 19px;
+    }
+    .header-form-title {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .header-form button {
+        margin-top: 15px;
+    }
+    .header-name {
+        width: 100%;
+        text-align: center;
+        font-size: 32px
+    }
+    .header-position {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+    .header-crash-text {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .header-crash-number {
+        font-size: 50px;
+    }
+    .header-device-number {
+        font-size: 50px;
+    }
+    .header-device-text {
+        font-size: 26px;
+        line-height: 32px;
+        width: 100%;
+        text-align: center;
+    }
+    .price .container {
+        padding: 0 30px;
+    }
+    .price-ipad-item-name {
+        width: 240px;
+    }
+    .price-form input {
+        background: #cdcdcd;
+        margin-bottom: 15px;
+    }
+    .price-form-title {
+        font-size: 12px;
+    }
+    .team-items-container {
+        width: 260px;
+    }
+    .contacts-form input {
+        margin-bottom: 15px;
+    }
+    .contacts-map-legend {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    .contacts-howsearch-item {
+        font-size: 12px;
+    }
+    .cometoyou-title h2 {
+        font-size: 26px;
+    }
+    .cometoyou-form-title {
+        font-size: 12px;
+    }
+    .cometoyou input {
+        margin-bottom: 15px;
+    }
+    .cometoyou-where-title {
+        font-size: 18px;
+    }
+    .features-form input {
+        margin-bottom: 15px;
+    }
+    .features-form-title {
+        font-size: 16px;
+    }
+    .clients .container {
+        padding: 0 30px;
+    }
+    .haveq-worked {
+        font-size: 23px;
+    }
+    .haveq .container {
+        padding: 0 30px;
+    }
+    .haveq-contacts-icons a {
+        margin: 0 22px;
+        width: 40px;
+        display: inline-block;
+    }
+    .haveq-contacts-icons a img{
+        max-width: 100%;
+    }
+    .haveq-address {
+        font-size: 20px;
+    }
+    .haveq-contacts {
+        font-size: 32px;
+        margin-top: 42px;
+    }
+    .section-title {
+        font-size: 24px;
+    }
+    .show-xs{
+        display: block;
+        height: 0;
+    }
+    .cometoyou .container {
+        width: 99%;
+    }
+    .contacts-howsearch-item-number {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    .contact-item-desc {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .btn-group > .btn {
+        display: block!important;
+        margin: 0 auto!important;
+        border-radius: 0;
+    }
+    .btn-group > .btn:first-child {
+        border-top-right-radius: 30px!important;
+        border-top-left-radius: 30px;
+        margin: 0!important;
+    }
+    .btn-group > .btn:last-child {
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px!important;
+    }    
+    .price-iphone-item-name,
+    .price-iphone-item-cost {
+        font-size: 12px;
+    }
+    .popup-form td {
+        display: block;
+        padding: 0;
+    }
+}
+
+@media (max-width: 361px) {
+    .header-title h2 {
+        font-size: 22px;
+    }
+    .header-subtitle {
+        font-size: 19px;
+    }
+    .header-form-title {
+        font-size: 14px;
+    }
+    .header-read-more {
+        font-size: 16px;
+    }
+    .section-title {
+        font-size: 21px;
+    }
+    .price-subtitle {
+        font-size: 18px;
+    }
+    .price-ipad-item-name {
+        width: 220px;
+    }
+    .price-form-title {
+        font-size: 13px;
+    }
+    .contacts-title h2 {
+        font-size: 24px;
+    }
+    .contacts-address {
+        font-size: 18px;
+    }
+    .contacts-form-title {
+        font-size: 16px;
+    }
+    .contacts-map-legend span {
+        margin-right: 3px;
+    }
+    .contacts-map-legend img {
+        margin-right: 3px;
+    }
+    .contacts-howsearch-item {
+        font-size: 10px;
+    }
+    .cometoyou-title h2 {
+        font-size: 22px;
+    }
+    .cometoyou-form-title {
+        font-size: 14px;
+    }
+    .cometoyou-where ul {
+        font-size: 16px;
+        margin-right: 23px;
+    }
+    button, input {
+        width: 95%!important;
+    }
+}
+@media (max-width: 550px) {
+    .stock-item {
+        font-size: 20px;
+    }
+    .stock-item br {
+        display: none;
+    }
+}

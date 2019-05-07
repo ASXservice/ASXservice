@@ -1,0 +1,19 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+-------------------------------------------------------------------*/
+
+/* LIBRARIES CSS */
+@import url('bootstrap.css');
+
+/* FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700%7CRoboto:300,400,500,700,900&subset=cyrillic');
+
+/* PLUGIN CSS */
+@import url('jquery.fancybox.css');
+@import url('owl.carousel.css');
+@import url('owl.theme.css');
+@import url('owl.transitions.css');
+
+/* CUSTOM CSS */
+@import url('theme.css');
+@import url('responsive.css');
